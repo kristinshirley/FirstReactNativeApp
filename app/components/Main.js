@@ -43,7 +43,7 @@ export default class Main extends React.Component {
     let obj ={
       name: 'John Doe',
       email: 'tet@gmail.com',
-      city: 'Raleigh',
+      city: 'New York',
     }
     AsyncStorage.setItem('user', JSON.stringify(obj));
   }
